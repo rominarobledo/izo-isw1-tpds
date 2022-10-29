@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-29T19:59:07.899Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="R2hYHJWvXbupuRfq-Rem" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-29T20:02:19.233Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="aQnFQ2AZXXpnEMQ195tL" version="20.5.1" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="1718" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -11,7 +11,7 @@
           <mxGeometry x="40" y="80" width="10" height="610" as="geometry" />
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-5" value=":Sistema" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="160" y="80" width="200" height="730" as="geometry" />
+          <mxGeometry x="170" y="80" width="200" height="730" as="geometry" />
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-6" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;fillColor=#B5739D;fillStyle=solid;" parent="3nuBFxr9cyL0pnOWT2aG-5" vertex="1">
           <mxGeometry x="97.5" y="80" width="12.5" height="610" as="geometry" />
@@ -34,7 +34,7 @@
         <mxCell id="rMNeuFb7HTi3MFIMx25N-47" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;[Enviar tres veces Dato(Fecha,Hora,Patente,Id,Velocidad)]&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" parent="3nuBFxr9cyL0pnOWT2aG-5" vertex="1">
           <mxGeometry x="105" y="580" width="280" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="rMNeuFb7HTi3MFIMx25N-58" value="&amp;lt;&amp;lt;Null&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;fontSize=9;" parent="3nuBFxr9cyL0pnOWT2aG-5" edge="1">
+        <mxCell id="rMNeuFb7HTi3MFIMx25N-58" value="&amp;lt;&amp;lt;Null&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;fontSize=9;entryX=0.9;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="3nuBFxr9cyL0pnOWT2aG-5" target="3nuBFxr9cyL0pnOWT2aG-2" edge="1">
           <mxGeometry x="0.4937" relative="1" as="geometry">
             <mxPoint x="-110" y="690" as="targetPoint" />
             <mxPoint x="97.5" y="689" as="sourcePoint" />
@@ -47,6 +47,12 @@
         </mxCell>
         <mxCell id="rMNeuFb7HTi3MFIMx25N-68" value="" style="line;strokeWidth=2;fillColor=#6a00ff;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=#3700CC;fontSize=10;fontColor=#ffffff;" parent="3nuBFxr9cyL0pnOWT2aG-5" vertex="1">
           <mxGeometry x="10" y="372" width="680" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="eY0g84c2wpDSBSaA6a9h-8" value="&lt;span style=&quot;font-size: 9px;&quot;&gt;Enviar Mail (Dato:Fecha,Hora,Id,Patente,Velocidad,avisos@ciudad)&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;strokeWidth=1;fontSize=10;entryX=-0.1;entryY=0.025;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="3nuBFxr9cyL0pnOWT2aG-5" target="rMNeuFb7HTi3MFIMx25N-28">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="110" y="320" as="sourcePoint" />
+            <mxPoint x="190" y="320" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-8" value="Dato(Fecha,Hora,Id,Patente,Velocidad)" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;fontSize=9;exitX=0.6;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="3nuBFxr9cyL0pnOWT2aG-2" edge="1">
           <mxGeometry x="-0.0526" y="-1" relative="1" as="geometry">
@@ -66,20 +72,10 @@
         </mxCell>
         <mxCell id="rMNeuFb7HTi3MFIMx25N-25" value="Dato(Fecha,Hora,Id,Patente,Velocidad)" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;fontSize=9;" parent="rMNeuFb7HTi3MFIMx25N-5" edge="1">
           <mxGeometry x="-0.027" relative="1" as="geometry">
-            <mxPoint x="-170" y="260" as="sourcePoint" />
+            <mxPoint x="-160" y="260" as="sourcePoint" />
             <mxPoint x="45" y="260" as="targetPoint" />
             <Array as="points">
               <mxPoint x="-65" y="260" />
-            </Array>
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="rMNeuFb7HTi3MFIMx25N-30" value="Enviar Mail (Dato:Fecha,Hora,Id,Patente,Velocidad,avisos@ciudad)" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;fontSize=9;" parent="rMNeuFb7HTi3MFIMx25N-5" edge="1">
-          <mxGeometry y="10" relative="1" as="geometry">
-            <mxPoint y="320" as="sourcePoint" />
-            <mxPoint x="190" y="320" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="-170" y="320" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
@@ -145,14 +141,14 @@
         <mxCell id="rMNeuFb7HTi3MFIMx25N-31" value="&amp;lt;&amp;lt;Null&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;fontSize=9;" parent="1" source="rMNeuFb7HTi3MFIMx25N-6" edge="1">
           <mxGeometry x="0.0256" relative="1" as="geometry">
             <mxPoint x="480" y="440" as="sourcePoint" />
-            <mxPoint x="270" y="440" as="targetPoint" />
+            <mxPoint x="280" y="440" as="targetPoint" />
             <Array as="points" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="rMNeuFb7HTi3MFIMx25N-37" value="&amp;lt;&amp;lt;Null&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;fontSize=9;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="270" y="560" as="targetPoint" />
+            <mxPoint x="280" y="560" as="targetPoint" />
             <mxPoint x="480" y="560" as="sourcePoint" />
             <mxPoint as="offset" />
           </mxGeometry>
@@ -168,7 +164,7 @@
         <mxCell id="rMNeuFb7HTi3MFIMx25N-46" value="&amp;lt;&amp;lt;Null&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;fontSize=9;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="630" y="640" as="sourcePoint" />
-            <mxPoint x="270" y="640" as="targetPoint" />
+            <mxPoint x="280" y="640" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
@@ -185,7 +181,7 @@
         <mxCell id="rMNeuFb7HTi3MFIMx25N-53" value="&amp;lt;&amp;lt;Null&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;fontSize=9;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="790" y="750" as="sourcePoint" />
-            <mxPoint x="270" y="750" as="targetPoint" />
+            <mxPoint x="280" y="750" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
