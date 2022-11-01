@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-01T16:55:18.227Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="WnMiSFczgwoNPMmr_wWE" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-01T16:55:44.530Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="mBVngOeyPhmoIKzV5Tjv" version="20.5.1" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="1718" dy="1582" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -34,7 +34,7 @@
           <mxGeometry x="45" y="80" width="15" height="610" as="geometry" />
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-8" value="Send Dato(Fecha,Hora,Id,Patente,Velocidad)" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;fontSize=9;exitX=0.6;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="3nuBFxr9cyL0pnOWT2aG-2" target="3nuBFxr9cyL0pnOWT2aG-6" edge="1">
-          <mxGeometry x="-0.0239" y="13" relative="1" as="geometry">
+          <mxGeometry x="-0.0407" y="10" relative="1" as="geometry">
             <mxPoint x="110" y="160" as="sourcePoint" />
             <mxPoint x="250" y="160" as="targetPoint" />
             <mxPoint as="offset" />
