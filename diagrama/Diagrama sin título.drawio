@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-01T16:51:58.133Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="ohuf5unZUMO35a8FyDP1" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-01T16:53:19.239Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="rrW3K1yQgAqrGlNA05Zl" version="20.5.1" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="1718" dy="1582" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -41,7 +41,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="rMNeuFb7HTi3MFIMx25N-5" value=":Api" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="410" y="80" width="130" height="700" as="geometry" />
+          <mxGeometry x="410" y="80" width="540" height="700" as="geometry" />
         </mxCell>
         <mxCell id="rMNeuFb7HTi3MFIMx25N-24" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;fillColor=#A680B8;" parent="rMNeuFb7HTi3MFIMx25N-5" vertex="1">
           <mxGeometry x="60" y="140" width="10" height="20" as="geometry" />
@@ -83,7 +83,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="OLatwRXyT5hv4w7Ra4kR-8" value="" style="line;strokeWidth=2;fillColor=#6a00ff;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=#3700CC;dashed=1;fontColor=#ffffff;" vertex="1" parent="rMNeuFb7HTi3MFIMx25N-5">
-          <mxGeometry x="-190" y="280" width="740" height="8" as="geometry" />
+          <mxGeometry x="-190" y="280" width="730" height="8" as="geometry" />
         </mxCell>
         <mxCell id="rMNeuFb7HTi3MFIMx25N-47" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;[Enviar tres veces Dato(Fecha,Hora,Patente,Id,Velocidad)]&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" parent="rMNeuFb7HTi3MFIMx25N-5" vertex="1">
           <mxGeometry x="-120" y="510" width="280" height="30" as="geometry" />
