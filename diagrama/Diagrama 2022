@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-03T23:35:23.696Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="fJZtPU7aO17ga50eav8l" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-03T23:54:59.220Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="_XQWZmXpbJhAZ7RHLwEe" version="20.5.1" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="1718" dy="1582" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1718" dy="1525" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -41,10 +41,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="rMNeuFb7HTi3MFIMx25N-5" value=":Api" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="410" y="80" width="160" height="710" as="geometry" />
+          <mxGeometry x="410" y="80" width="130" height="700" as="geometry" />
         </mxCell>
         <mxCell id="rMNeuFb7HTi3MFIMx25N-24" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;fillColor=#A680B8;" parent="rMNeuFb7HTi3MFIMx25N-5" vertex="1">
-          <mxGeometry x="60" y="140" width="10" height="20" as="geometry" />
+          <mxGeometry x="60" y="140" width="10" height="30" as="geometry" />
         </mxCell>
         <mxCell id="rMNeuFb7HTi3MFIMx25N-30" value="Send Mail (Dato:Fecha,Hora,Id,Patente,Velocidad,avisos@ciudad)" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;fontSize=9;entryX=0;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="rMNeuFb7HTi3MFIMx25N-5" target="rMNeuFb7HTi3MFIMx25N-28" edge="1">
           <mxGeometry x="0.0476" relative="1" as="geometry">
@@ -72,7 +72,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rMNeuFb7HTi3MFIMx25N-25" value="Send Dato(Fecha,Hora,Id,Patente,Velocidad)" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;fontSize=8;" parent="rMNeuFb7HTi3MFIMx25N-5" edge="1">
+        <mxCell id="rMNeuFb7HTi3MFIMx25N-25" value="Send Dato(Fecha,Hora,Id,Patente,Velocidad)" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;fontSize=9;" parent="rMNeuFb7HTi3MFIMx25N-5" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-120" y="140" as="sourcePoint" />
             <mxPoint x="60" y="140" as="targetPoint" />
@@ -84,6 +84,14 @@
         </mxCell>
         <mxCell id="OLatwRXyT5hv4w7Ra4kR-8" value="" style="line;strokeWidth=2;fillColor=#6a00ff;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=#3700CC;dashed=1;fontColor=#ffffff;" parent="rMNeuFb7HTi3MFIMx25N-5" vertex="1">
           <mxGeometry x="-190" y="280" width="730" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="OLatwRXyT5hv4w7Ra4kR-4" value="&amp;lt;&amp;lt;Null&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;fontSize=9;" parent="rMNeuFb7HTi3MFIMx25N-5" edge="1">
+          <mxGeometry x="0.0865" relative="1" as="geometry">
+            <mxPoint x="-120" y="170" as="targetPoint" />
+            <mxPoint x="70" y="170.14999999999998" as="sourcePoint" />
+            <Array as="points" />
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="rMNeuFb7HTi3MFIMx25N-6" value=":Servidor Mail" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=11;" parent="1" vertex="1">
           <mxGeometry x="590" y="80" width="90" height="700" as="geometry" />
@@ -110,8 +118,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rMNeuFb7HTi3MFIMx25N-43" value="Send Dato(Fecha,Hora,Id,Patente,Velocidad)" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;fontSize=8;entryX=0.3;entryY=0.025;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="3nuBFxr9cyL0pnOWT2aG-6" target="rMNeuFb7HTi3MFIMx25N-35" edge="1">
-          <mxGeometry x="-0.0164" relative="1" as="geometry">
+        <mxCell id="rMNeuFb7HTi3MFIMx25N-43" value="Send Dato(Fecha,Hora,Id,Patente,Velocidad)" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;fontSize=9;entryX=0.3;entryY=0.025;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="3nuBFxr9cyL0pnOWT2aG-6" target="rMNeuFb7HTi3MFIMx25N-35" edge="1">
+          <mxGeometry x="-0.0163" y="6" relative="1" as="geometry">
             <mxPoint x="300" y="520" as="sourcePoint" />
             <mxPoint x="440" y="520" as="targetPoint" />
             <Array as="points">
@@ -132,14 +140,6 @@
             <mxPoint x="790" y="710" as="sourcePoint" />
             <mxPoint x="290" y="710" as="targetPoint" />
             <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="OLatwRXyT5hv4w7Ra4kR-4" value="&amp;lt;&amp;lt;Null&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;fontSize=9;" parent="1" edge="1">
-          <mxGeometry x="0.0865" relative="1" as="geometry">
-            <mxPoint x="290" y="240" as="targetPoint" />
-            <mxPoint x="483" y="240.14999999999998" as="sourcePoint" />
-            <Array as="points" />
-            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="OLatwRXyT5hv4w7Ra4kR-5" value="&amp;lt;&amp;lt;Null&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;fontSize=9;" parent="1" edge="1">
